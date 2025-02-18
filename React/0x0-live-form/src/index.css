@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Host Grotesk", serif;
+  color: #333;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  padding: 2rem;
+  border-radius: 6px;
+  max-width: 530px;
+}
+
+.form__title {
+  margin: 0 0 1rem;
+}
+
+.input {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 100%;
+}
+
+.input:focus {
+  border-color: #333;
+}
+
+.input__control {
+  margin-bottom: 1.5rem;
+}
+
+.input__label {
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.input__error {
+  font-size: 12px;
+  font-weight: 300;
+  color: red;
+  margin-block: 0;
+  margin-bottom: 4px;
+}
+
+.button {
+  background: #205CF6;
+  color: #fff;
+  font-family: inherit;
+  border: none;
+  font-weight: 600;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-radius: 3px;
+ width: 100%;
+ cursor: pointer;
+}
